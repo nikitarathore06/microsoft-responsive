@@ -1,0 +1,116 @@
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat:wght@500&family=Roboto:wght@100;300&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Baloo 2', cursive;
+    }
+    
+    .container {
+        height: 100vh;
+        background-color: #e7e4e4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .box {
+        height: 330px;
+        background-color: white;
+        width: 400px;
+        padding: 15px;
+        margin-bottom: 30px;
+        box-shadow: inset 1px -1px 5px 1px rgba(0, 0, 0, 0.30);
+    }
+    
+    img {
+        padding-top: 37px;
+        margin-left: 20px;
+        height: 60px;
+    }
+    
+    h1 {
+        margin: 6px 15px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    input {
+        border-style: none;
+        margin-left: 12px;
+        font-size: 15px;
+        border-bottom: 1px solid black;
+        padding: 5px;
+        width: 345px;
+    }
+    
+    p {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .back-btn {
+        height: 35px;
+        background-color: rgb(204, 203, 203);
+        color: black;
+        margin-top: 20px;
+        width: 100px;
+        border: none;
+        margin-left: 150px;
+        font-size: 16px;
+    }
+    
+    .next-btn {
+        height: 35px;
+        width: 100px;
+        margin-top: 20px;
+        font-size: 16px;
+        border: none;
+        color: white;
+        background-color: rgb(53, 53, 212);
+    }
+    
+    .box a {
+        color: #108df3;
+        text-decoration: none;
+    }
+    
+    .back-btn:hover {
+        background-color: rgb(184, 183, 183);
+    }
+    
+    .next-btn {
+        background-color: rgb(5, 5, 245)
+    }
+    
+    .sign-btn {
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        height: 40px;
+        width: 29%;
+        font-size: 18px;
+        border: none;
+        font-weight: 100;
+        box-shadow: inset 1px -1px 5px 1px rgba(0, 0, 0, 0.30);
+    }
+    
+    .sign-btn i {
+        margin-right: 18px;
+    }
+    
+    @media(max-width: 600px) {
+        .box {
+            height: 100%;
+            background-color: white;
+            width: 100%;
+            padding: 15px;
+            box-shadow: none;
+        }
+        .sign-btn {
+            display: none;
+        }
+    }
